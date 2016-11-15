@@ -43,7 +43,7 @@ git clone https://github.com/RedisLabs/RedisModulesSDK.git
 - Clone Hiredis into it
 ```
 cd RedisModulesSDK
-git clone git clone https://github.com/redis/hiredis.git
+git clone https://github.com/redis/hiredis.git
 ```
 - Clone HiredisProxy into it
 ```
