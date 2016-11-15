@@ -40,9 +40,13 @@ Access it locally (from replication) | `127.0.0.1:6380> get more` |
 ```
 git clone https://github.com/RedisLabs/RedisModulesSDK.git
 ```
-- Clone HiredisProxy into it
+- Clone Hiredis into it
 ```
 cd RedisModulesSDK
+git clone git clone https://github.com/redis/hiredis.git
+```
+- Clone HiredisProxy into it
+```
 git clone https://github.com/synku/HiredisProxy
 ```
 - Make
