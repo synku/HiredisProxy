@@ -31,8 +31,8 @@ Connect to both Redis servers | `$ redis-cli -p 6380` | `$ redis-cli -p 6379`
 Monitor master to see what's happening | | `127.0.0.1:6379>  monitor`
 Activate slave role | `127.0.0.1:6380>  slaveof 127.0.0.1 6379` |  `1479175823.971904 [0 127.0.0.1:62543] "PING"`
 Proxy a command to master | `127.0.0.1:6380> hiredis.proxy set more lemmings` | `1479175834.943794 [0 127.0.0.1:62544] "set" "more" "lemmings"`
-Access it locally (from replication) | `127.0.0.1:6380> get more` | 
-...  | `lemmings` |
+Access it locally (from replication) | `127.0.0.1:6380> get more` <br> `lemmings` | 
+
 
 ### Build/Install
 
